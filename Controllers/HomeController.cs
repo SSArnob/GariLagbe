@@ -26,5 +26,12 @@ namespace GariLagbe.Controllers
 
             return View();
         }
+
+        public ActionResult testGit()
+        {
+            ViewBag.Message = "kicchu bujhtesina.";
+
+            return View();
+        }
     }
 }
